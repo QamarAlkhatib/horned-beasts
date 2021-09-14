@@ -59,7 +59,8 @@ class HornedBeasts extends React.Component {
                     handleClose={this.handleClose}
                     show={this.state.showModal}
                     title={this.props.title}
-                    image_url={<img src={this.props.image_url}/>}
+                    image_url={this.props.image_url}
+
                     description = {this.props.description}
 
                     />
