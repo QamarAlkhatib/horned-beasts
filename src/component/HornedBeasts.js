@@ -13,7 +13,7 @@ class HornedBeasts extends React.Component {
         this.state = {
             numOfTimes: 0,
             showModal: false,
-            
+
         };
     }
 
@@ -28,7 +28,7 @@ class HornedBeasts extends React.Component {
     handleShow = () => {
         this.setState({
             showModal: true,
-            
+
         })
     }
 
@@ -53,22 +53,19 @@ class HornedBeasts extends React.Component {
                         <Button onClick={this.addOne} variant="primary">Vote</Button>
                     </Card.Body>
                 </Card>
-               
+
 
                 <SelectedBeast
                     handleClose={this.handleClose}
                     show={this.state.showModal}
                     title={this.props.title}
                     image_url={this.props.image_url}
+                    description={this.props.description}
+                    favtime={this.state.numOfTimes}
+                    keyword={this.props.keyword}
+                    horns={this.props.horns}
+                />
 
-                    description = {this.props.description}
-
-                    />
-                {/* <h2>{this.props.title}</h2>
-                <p>{this.state.numOfTimes}</p>
-                <img onClick={this.addOne} src={this.props.image_url} alt={this.props.keyword} title={this.props.horns} />
-                <p>{this.props.description} numer of times: {this.props.numOfTimes}</p>
-                <hr></hr> */}
             </div>
         )
     }

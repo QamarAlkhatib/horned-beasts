@@ -14,22 +14,26 @@ class SelectedBeast extends React.Component {
             <>
                 <Modal show={this.props.show} onHide={this.props.handleClose}>
                     <Modal.Header closeButton>
-                        <Modal.Title>{this.props.title}</Modal.Title>
+                        <Modal.Title>{this.props.title} 🦄 </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                     <img
-                        src={this.props.image_url}
-                        style={{width:"80%", margin:"10px auto"}}
+
+                        <img
+                            src={this.props.image_url}
+                            style={{ width: "80%", margin: "10px auto" }}
                         />
+                        <hr></hr>
+
+                        ℹ️ <strong>Description: </strong>{this.props.description}
                         <br></br>
-                        {this.props.description}
+                        🗝️<strong>Keyword: </strong>  {this.props.keyword}
+                        <br></br>
+                        🦌 <strong>Horns: </strong> {this.props.horns}
+
                     </Modal.Body>
                     <Modal.Footer>
-                        <Button variant="secondary" onClick={this.props.handleClose}>
-                            Close
-                        </Button>
                         <Button variant="primary" onClick={this.props.handleClose}>
-                            Save Changes
+                            See Another Unicorn
                         </Button>
                     </Modal.Footer>
                 </Modal>
