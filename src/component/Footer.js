@@ -8,7 +8,7 @@ class Footer extends React.Component {
     render() {
         return (
           
-                <Card.Footer> Author: Qamar Alkhatib </Card.Footer>
+                <Card.Footer style={{backgroundColor: "#90CAF9", textAlign:'center'}}> Author: Qamar Alkhatib </Card.Footer>
             
         )
     }

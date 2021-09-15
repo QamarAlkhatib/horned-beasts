@@ -16,11 +16,11 @@ class SelectedBeast extends React.Component {
                     <Modal.Header closeButton>
                         <Modal.Title>{this.props.title} 🦄 </Modal.Title>
                     </Modal.Header>
-                    <Modal.Body>
+                    <Modal.Body style={{ backgroundColor: "#424242", color: "white", display: "inline-block" }}>
 
                         <img
                             src={this.props.image_url}
-                            style={{ width: "80%", margin: "10px auto" }}
+                            style={{ width: "80%", margin: "10px auto", border: "1px solid #0D47A1" }}
                         />
                         <hr></hr>
 
