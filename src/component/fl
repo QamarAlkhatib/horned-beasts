@@ -1,0 +1,34 @@
+   
+              {/* <>
+               <Form style={{ marginBottom: "60px" }} >
+                <Form.Label >How Many Horns? 🦌</Form.Label>
+                <Form.Control  >
+                <Form.Select  onChange={this.props.hornsFun} name="horns" aria-label="Default select example">
+                    <option value="All">All</option>
+                    <option value="One">One</option>
+                    <option value="Two">Two</option>
+                    <option value="Three">Three</option>
+                    <option value="Wow">Wow...</option>
+                </Form.Select>
+                </Form.Control>
+                <Button variant="dark"  onClick={this.props.filterDataHorns}></Button>
+
+              
+            </Form >
+              
+              </> */}
+             
+    // filterDataHorns = () =>{
+    //     let arrayData = data.filter((val) => val.horns === parseInt(this.state.horns))
+    //     this.setState({
+    //         DataFilterd: arrayData
+            
+    //     })
+    // }
+
+    // hornsFun = (event) =>{
+    //     event.preventDefault();
+    //     this.setState({
+    //         horns: event.target.value
+    //     })
+    // }
