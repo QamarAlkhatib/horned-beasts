@@ -20,7 +20,6 @@ class SelectedBeast extends React.Component {
                             style={{ width: "80%", margin: "10px auto" }}
                         />
                         <hr></hr>
-
                         ℹ️ <strong>Description: </strong>{this.props.description}
                         <br></br>
                         🗝️<strong>Keyword: </strong>  {this.props.keyword}
