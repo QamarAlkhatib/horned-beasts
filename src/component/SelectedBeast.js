@@ -1,9 +1,6 @@
-
 import React from 'react';
 import Modal from 'react-bootstrap/Modal'
 import Button from 'react-bootstrap/Button'
-
-
 
 class SelectedBeast extends React.Component {
 
@@ -16,11 +13,11 @@ class SelectedBeast extends React.Component {
                     <Modal.Header closeButton>
                         <Modal.Title>{this.props.title} 🦄 </Modal.Title>
                     </Modal.Header>
-                    <Modal.Body style={{ backgroundColor: "#424242", color: "white", display: "inline-block" }}>
+                    <Modal.Body style={{ backgroundColor: "#424242", color: "white" }}>
 
                         <img
                             src={this.props.image_url}
-                            style={{ width: "80%", margin: "10px auto", border: "1px solid #0D47A1" }}
+                            style={{ width: "80%", margin: "10px auto" }}
                         />
                         <hr></hr>
 
