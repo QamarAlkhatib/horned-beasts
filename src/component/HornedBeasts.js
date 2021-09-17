@@ -13,11 +13,9 @@ class HornedBeasts extends React.Component {
         this.state = {
             numOfTimes: 0,
             showModal: false,
-
         };
     }
 
-    // function for adding one when the user click on the imgs
 
     addOne = () => {
         this.setState({
