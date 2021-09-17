@@ -6,7 +6,6 @@ class Header extends React.Component {
 
     render() {
         return (
-
             <Card style={{ marginBottom: "60px" }}>
                 <Card.Header>Horned Beasts</Card.Header>
                 <Card.Body style={{ backgroundColor: "#90CAF9" }}>
