@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import Card from 'react-bootstrap/Card'
 
@@ -8,7 +8,7 @@ class Footer extends React.Component {
     render() {
         return (
           
-                <Card.Footer> Author: Qamar Alkhatib </Card.Footer>
+                <Card.Footer style={{backgroundColor: "#90CAF9", textAlign:'center', clear:"both"}}> Author: Qamar Alkhatib </Card.Footer>
             
         )
     }
