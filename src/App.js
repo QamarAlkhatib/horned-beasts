@@ -53,7 +53,7 @@ class App extends React.Component {
         <Header />
 
         <>
-          <Form style={{ marginBottom: "60px", backgroundColor: "#D1C4E9", fontSize: "20px", border: "1px solid black", height: "120px", marginLeft: "30px", marginRight: "100px", width: "750px" }}>
+          <Form style={{ marginBottom: "60px", fontSize: "20px", border: "1px solid black",backgroundColor: "#D1C4E9", height: "120px", marginLeft: "30px", marginRight: "100px", width: "750px" }}>
             <Form.Label >How Many Horns? 🦌</Form.Label>
             <Form.Select name="horns" onChange={this.eventHandler} aria-label="Default select example">
               <option value="0">All</option>
